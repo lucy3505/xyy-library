@@ -1,0 +1,42 @@
+{
+  "name": "xyy-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "npx webpack --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.prod.conf.js",
+    "dev": "webpack-dev-server --config ./build/webpack.dev.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucy3505/xyy-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucy3505/xyy-library/issues"
+  },
+  "homepage": "https://github.com/lucy3505/xyy-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3"
+  }
+}
