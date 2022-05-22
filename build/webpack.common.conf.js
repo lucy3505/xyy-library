@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 //公共配置
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./index.js",
   externals: {
     // react: {
     //   root: "React",
@@ -125,7 +125,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       // template: path.join(srcPath, "index.html"),
       // filename: "index.html",
-      template: "./src/index.html",
+      template: "./index.html",
     }),
     new CleanWebpackPlugin(), //默认清空的是output下的path
   ],
