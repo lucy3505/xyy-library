@@ -1,3 +1,6 @@
+
+npm i git+ssh://git@github.com:lucy3505/xyy-library.git#v0.0.1
+
 IgnorePlugin
 不引入相应的代码
 最终打包生成的代码  没有代码

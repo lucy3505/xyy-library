@@ -15,7 +15,7 @@ const devConfig = {
   devServer: {
     port: 8000,
     // contentBase: distPath,
-    progress: true,
+    // progress: true,
     open: true,
     compress: true,
   },
